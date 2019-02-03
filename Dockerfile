@@ -1,6 +1,6 @@
 FROM alpine:3.1
 
-ARG COLOUR=yellow
+ARG COLOUR=red
 ENV COLOUR=${COLOUR}
 
 RUN apk add --update mini_httpd && \ 
